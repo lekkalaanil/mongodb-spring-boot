@@ -1,0 +1,22 @@
+git init // create a local repository by adding .git file to current repository
+git clone repo location //clones existing repository
+touch .gitignore // create a git ignore file in current repository
+/* we can mention file names in git that do not commit in .git central repository*/
+git status// to know status of aplication like staging,commited.
+
+git config --global user.name 'urname'
+git config --global user.email 'urmail'
+
+
+git add .//add to satging ready to commit
+git commit//commit changes to local repository
+git push // commit changes to central repository
+git pull// update changes from central repository to local repository
+git branch branch-name //creates a brach in brach
+git checkout brach-name/swieches to specified branch brach 
+/*after added the functionality to new brach then switch to master branch and merge the changes*/
+git merge branch-name -m 'commit messege' //merges the branch name with current branch(master)
+git reomote add origin remote-repo-location // to add remote repository to current local repository
+git remote //display list of remote repositories
+git push -u origin master //to push master branch to remote repository
+
